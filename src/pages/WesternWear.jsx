@@ -4,43 +4,43 @@ import { Link } from 'react-router-dom';
 const WesternWear = () => {
   // Sample product data for Western Wear (30 products)
   const products = [
-    { id: 61, name: 'Denim Kurti Top', price: 1499, image: 'https://via.placeholder.com/300?text=Denim+Kurti+Top' },
-    { id: 62, name: 'Cotton Tunic Kurti', price: 899, image: 'https://via.placeholder.com/300?text=Cotton+Tunic+Kurti' },
-    { id: 63, name: 'Cape Style Kurti', price: 1799, image: 'https://via.placeholder.com/300?text=Cape+Style+Kurti' },
-    { id: 64, name: 'Printed Shirt Kurti', price: 1199, image: 'https://via.placeholder.com/300?text=Printed+Shirt+Kurti' },
-    { id: 65, name: 'Chiffon Overlay Kurti', price: 1599, image: 'https://via.placeholder.com/300?text=Chiffon+Overlay+Kurti' },
-    { id: 66, name: 'Velvet Crop Kurti', price: 1999, image: 'https://via.placeholder.com/300?text=Velvet+Crop+Kurti' },
-    { id: 67, name: 'Linen Shirt Kurti', price: 1299, image: 'https://via.placeholder.com/300?text=Linen+Shirt+Kurti' },
-    { id: 68, name: 'Silk High-Low Kurti', price: 2299, image: 'https://via.placeholder.com/300?text=Silk+High-Low+Kurti' },
-    { id: 69, name: 'Cotton Peplum Kurti', price: 999, image: 'https://via.placeholder.com/300?text=Cotton+Peplum+Kurti' },
-    { id: 70, name: 'Georgette Wrap Kurti', price: 1699, image: 'https://via.placeholder.com/300?text=Georgette+Wrap+Kurti' },
-    { id: 71, name: 'Rayon Off-Shoulder Kurti', price: 1899, image: 'https://via.placeholder.com/300?text=Rayon+Off-Shoulder+Kurti' },
-    { id: 72, name: 'Silk Cold-Shoulder Kurti', price: 2099, image: 'https://via.placeholder.com/300?text=Silk+Cold-Shoulder+Kurti' },
-    { id: 73, name: 'Cotton Maxi Kurti', price: 1399, image: 'https://via.placeholder.com/300?text=Cotton+Maxi+Kurti' },
-    { id: 74, name: 'Chanderi Shirt Kurti', price: 1799, image: 'https://via.placeholder.com/300?text=Chanderi+Shirt+Kurti' },
-    { id: 75, name: 'Printed Asymmetrical Kurti', price: 1099, image: 'https://via.placeholder.com/300?text=Printed+Asymmetrical+Kurti' },
-    { id: 76, name: 'Silk Belted Kurti', price: 1999, image: 'https://via.placeholder.com/300?text=Silk+Belted+Kurti' },
-    { id: 77, name: 'Georgette Ruffle Kurti', price: 1499, image: 'https://via.placeholder.com/300?text=Georgette+Ruffle+Kurti' },
-    { id: 78, name: 'Rayon Flared Top Kurti', price: 1699, image: 'https://via.placeholder.com/300?text=Rayon+Flared+Top+Kurti' },
-    { id: 79, name: 'Cotton Crop Top Kurti', price: 1299, image: 'https://via.placeholder.com/300?text=Cotton+Crop+Top+Kurti' },
-    { id: 80, name: 'Velvet Jacket Kurti', price: 2399, image: 'https://via.placeholder.com/300?text=Velvet+Jacket+Kurti' },
-    { id: 81, name: 'Linen High-Low Kurti', price: 1599, image: 'https://via.placeholder.com/300?text=Linen+High-Low+Kurti' },
-    { id: 82, name: 'Silk Peplum Top Kurti', price: 2199, image: 'https://via.placeholder.com/300?text=Silk+Peplum+Top+Kurti' },
-    { id: 83, name: 'Cotton Shirt Style Kurti', price: 1199, image: 'https://via.placeholder.com/300?text=Cotton+Shirt+Style+Kurti' },
-    { id: 84, name: 'Chiffon Tiered Kurti', price: 1799, image: 'https://via.placeholder.com/300?text=Chiffon+Tiered+Kurti' },
-    { id: 85, name: 'Printed Denim Kurti', price: 1399, image: 'https://via.placeholder.com/300?text=Printed+Denim+Kurti' },
-    { id: 86, name: 'Rayon Tunic Top Kurti', price: 1599, image: 'https://via.placeholder.com/300?text=Rayon+Tunic+Top+Kurti' },
-    { id: 87, name: 'Silk Overlay Kurti', price: 1999, image: 'https://via.placeholder.com/300?text=Silk+Overlay+Kurti' },
-    { id: 88, name: 'Cotton Flared Western Kurti', price: 1299, image: 'https://via.placeholder.com/300?text=Cotton+Flared+Western+Kurti' },
-    { id: 89, name: 'Velvet High-Low Kurti', price: 2499, image: 'https://via.placeholder.com/300?text=Velvet+High-Low+Kurti' },
-    { id: 90, name: 'Linen Cape Kurti', price: 1699, image: 'https://via.placeholder.com/300?text=Linen+Cape+Kurti' },
+    { id: 61, name: 'Mauve Melody Cosmos Suit Set', price: 1499, image: '/Dress/Dewdrop Charm Cotton Dress 1.jpg' },
+    { id: 62, name: 'Moss Green Majesty Suit Set', price: 1499, image: '/Kurta Set/moss green majesty 1.jpg' },
+    { id: 63, name: 'Mimosa Luxe Yellow Suit Set', price: 1499, image: '/Kurta Set/mimosa luxe yellow 1.jpg' },
+    { id: 64, name: 'Molten Magic Orange Suit Set', price: 1499, image: '/Kurta Set/molten magic orange 1.jpg' },
+    { id: 65, name: 'Samara Green Heavy Embroidered', price: 1599, image: '/Kurta Set/samara green heavy embroidered 1.jpg' },
+    { id: 66, name: 'Samaira Ivory Cotton Suit Set', price: 1199, image: '/Kurta Set/samara ivory cotton 1.jpg' },
+    { id: 67, name: 'Spring Olive Cotton Suit Set', price: 1199, image: '/Kurta Set/spring olive cotton 1.jpg' },
+    { id: 68, name: 'Zeenat Pink Muslin Suit Set', price: 1199, image: '/Kurta Set/zeenat pink mulsin 1.jpg' },
+    { id: 69, name: 'Navy Elegance Cotton Suit Set', price: 1099, image: '/Kurta Set/navy elegance cotton 1.jpg' },
+    { id: 70, name: 'Crimson Blush Kurta Set', price: 1499, image: '/Kurta Set/crimson blush kurta 1.jpg' },
+    { id: 71, name: 'Anamika Muslin Suit Set', price: 1299, image: '/Kurta Set/Anamika muslin 1.jpg' },
+    { id: 72, name: 'Advika Ivory Cotton Suit Set', price: 1299, image: '/Kurta Set/advika ivory cotton 1.jpg' },
+    { id: 73, name: 'Vintage Charm Cotton Suit Set', price: 1199, image: '/Kurta Set/vintage charm cotton 1.jpg' },
+    { id: 74, name: 'Shadow Grace Cotton Suit Set', price: 1299, image: '/Kurta Set/shadow grace cotton 1.jpg' },
+    { id: 75, name: 'Abeer Cotton Suit Set', price: 1099, image: '/Kurta Set/abeer cotton 1.jpg' },
+    { id: 76, name: 'Kesariya Cosmos Kurta Set ', price: 1499, image: '/Kurta Set/Kesariya cosmos kurta 1.jpg' },
+    { id: 77, name: 'Shivanjali Silk Suit Set', price: 1499, image: '/Kurta Set/Shivanjali silk 1.jpg' },
+    { id: 78, name: 'Mystic Waves Muslin Suit Set', price: 1299, image: '/Kurta Set/Mystic waves muslin 1.jpg' },
+    { id: 79, name: 'Regal Shadow Black Kurta Set', price: 1399, image: '/Kurta Set/Regal shadow black kurta 1.jpg' },
+    { id: 80, name: 'Aadhya Pink Muslin Suit Set', price: 1299, image: '/Kurta Set/Aadhya pink muslin 1.jpg' },
+    { id: 81, name: 'Saadhvi Muslin Suit Set', price: 1299, image: '/Kurta Set/Saadhvi muslin 1.jpg' },
+    { id: 82, name: 'Roshni Pink Silk Kurta Set', price: 1299, image: '/Kurta Set/Roshni pink silk kurta 1.jpg' },
+    { id: 83, name: 'Electric Lush Heavy Embroidered Suit Set', price: 1499, image: '/Kurta Set/Electric lush heavy embroidered 1.jpg' },
+    { id: 84, name: 'Sofia Brown Heavy Embroidered Suit Set', price: 1499, image: '/Kurta Set/sofia brown heavy embroidered 1.jpg' },
+    { id: 85, name: 'Rutvik Silk Suit Set', price: 1299, image: '/Kurta Set/Rutvik silk 1.jpg' },
+    { id: 86, name: 'Pastel Grow Co-Ord Set', price: 1399, image: '/Kurta Set/pastel grow co-ords set 1.jpg' },
+    { id: 87, name: 'Vasana Silk Worked Kurta Set', price: 1599, image: '/Kurta Set/Vasana silk worked kurta 1.jpg' },
+    { id: 88, name: 'Mermaid Wave Muslin Suit Set', price: 1299, image: '/Kurta Set/mermaid wave muslin 1.jpg' },
+    { id: 89, name: 'Paakhi Yellow Muslin Suit Set', price: 1099, image: '/Kurta Set/paakhi yellow muslin 1.jpg' },
+    { id: 90, name: 'Swan Pink Muslin Suit Set', price: 1099, image: '/Kurta Set/swan pink muslin 1.jpg' },
   ];
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold mb-6 text-center">Western Wear</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">Kurta sets</h1>
       <p className="text-gray-600 text-center mb-8">
-        Discover our modern kurti designs with a western twist.
+        Special Offer On Girls Fashion trends. BUY 2 GET 1 FREE
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((product) => (

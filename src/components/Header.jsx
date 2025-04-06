@@ -10,15 +10,15 @@ const Header = () => {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="text-2xl font-bold text-pink-600">Kurti Store</Link>
+          <Link to="/" className="text-2xl font-bold text-pink-600">Girls Fashion Trends</Link>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-6">
             <Link to="/" className="text-gray-600 hover:text-pink-600">Home</Link>
             <Link to="/about-us" className="text-gray-600 hover:text-pink-600">About Us</Link>
             <Link to="/new-arrivals" className="text-gray-600 hover:text-pink-600">New Arrivals</Link>
-            <Link to="/indian-wear" className="text-gray-600 hover:text-pink-600">Indian Wear</Link>
-            <Link to="/western-wear" className="text-gray-600 hover:text-pink-600">Western Wear</Link>
+            <Link to="/indian-wear" className="text-gray-600 hover:text-pink-600">Dresses</Link>
+            <Link to="/western-wear" className="text-gray-600 hover:text-pink-600">Kurta Sets</Link>
             <Link to="/contact-us" className="text-gray-600 hover:text-pink-600">Contact Us</Link>
             <a
               href={whatsappUrl}

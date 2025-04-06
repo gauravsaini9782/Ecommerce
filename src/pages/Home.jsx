@@ -11,10 +11,10 @@ const Home = () => {
   ];
 
   const products = [
-    { id: 1, name: 'Silk Kurti', price: 1499, image: 'https://via.placeholder.com/300?text=Silk+Kurti' },
-    { id: 2, name: 'Cotton Kurti', price: 999, image: 'https://via.placeholder.com/300?text=Cotton+Kurti' },
-    { id: 3, name: 'Embroidered Kurti', price: 1999, image: 'https://via.placeholder.com/300?text=Embroidered+Kurti' },
-    { id: 4, name: 'Printed Kurti', price: 1299, image: 'https://via.placeholder.com/300?text=Printed+Kurti' },
+    { id: 1, name: 'Roshni Pink Silk Kurta Set', price: 1299, image: '/Kurta Set/Roshni pink silk kurta 1.jpg' },
+    { id: 2, name: 'Advika Ivory Cotton Suit Set ', price: 1299, image: '/Kurta Set/advika ivory cotton 1.jpg' },
+    { id: 3, name: 'Samara Green Heavy Embroidered Suit', price: 1499, image: '/Kurta Set/samara green heavy embroidered 1.jpg' },
+    { id: 4, name: 'Vasana Silk Worked Kurta Set', price: 1499, image: '/Kurta Set/Vasana silk worked kurta 1.jpg' },
   ];
 
   useEffect(() => {
