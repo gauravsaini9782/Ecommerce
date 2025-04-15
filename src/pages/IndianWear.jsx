@@ -22,25 +22,25 @@ const IndianWear = () => {
     { id: 46, name: 'Filo Cotton Dress ', price: 999, image: '/Dress/Filo Cotton Dress 1.jpg' },
     { id: 47, name: 'Sarah Haze Cotton Dress ', price: 899, image: '/Dress/Sarah Haze Cotton Dress 1.jpg' },
     { id: 48, name: 'The White Canvas Dress  ', price: 799, image: '/Dress/The White Canvas Dress 1.jpg' },
-    { id: 49, name: 'Calming Mist Floral Maxi', price: 899, image: '/Dress/Calming Mist Floral Maxi 1.jpg' },
+    { id: 49, name: 'Calming Mist Floral Maxi', price: 899, image: '/Dress/The White Canvas Dress 1.jpg' },
     { id: 50, name: 'Posh Delight Green Cotton Maxi', price: 899, image: '/Dress/Posh Delight Green Cotton Maxi 1.jpg' },
     { id: 51, name: 'Artistry Pearl Cotton Maxi', price: 900, image: '/Dress/Artistry Pearl Cotton Maxi 1.jpg' },
-    { id: 52, name: 'Silk Kurti with Palazzo', price: 3299, image: 'https://via.placeholder.com/300?text=Silk+Kurti+with+Palazzo' },
-    { id: 53, name: 'Cotton Kurti with Skirt', price: 1499, image: 'https://via.placeholder.com/300?text=Cotton+Kurti+with+Skirt' },
-    { id: 54, name: 'Chiffon Straight Kurti', price: 1399, image: 'https://via.placeholder.com/300?text=Chiffon+Straight+Kurti' },
-    { id: 55, name: 'Printed Georgette Kurti', price: 1199, image: 'https://via.placeholder.com/300?text=Printed+Georgette+Kurti' },
-    { id: 56, name: 'Rayon Kurti with Dupatta', price: 2099, image: 'https://via.placeholder.com/300?text=Rayon+Kurti+with+Dupatta' },
-    { id: 57, name: 'Silk Kurti with Embroidery', price: 2699, image: 'https://via.placeholder.com/300?text=Silk+Kurti+with+Embroidery' },
-    { id: 58, name: 'Cotton Flared Kurti', price: 1299, image: 'https://via.placeholder.com/300?text=Cotton+Flared+Kurti' },
-    { id: 59, name: 'Velvet Straight Kurti', price: 2899, image: 'https://via.placeholder.com/300?text=Velvet+Straight+Kurti' },
-    { id: 60, name: 'Linen Printed Kurti', price: 1599, image: 'https://via.placeholder.com/300?text=Linen+Printed+Kurti' },
+    // { id: 52, name: 'Silk Kurti with Palazzo', price: 3299, image: 'https://via.placeholder.com/300?text=Silk+Kurti+with+Palazzo' },
+    // { id: 53, name: 'Cotton Kurti with Skirt', price: 1499, image: 'https://via.placeholder.com/300?text=Cotton+Kurti+with+Skirt' },
+    // { id: 54, name: 'Chiffon Straight Kurti', price: 1399, image: 'https://via.placeholder.com/300?text=Chiffon+Straight+Kurti' },
+    // { id: 55, name: 'Printed Georgette Kurti', price: 1199, image: 'https://via.placeholder.com/300?text=Printed+Georgette+Kurti' },
+    // { id: 56, name: 'Rayon Kurti with Dupatta', price: 2099, image: 'https://via.placeholder.com/300?text=Rayon+Kurti+with+Dupatta' },
+    // { id: 57, name: 'Silk Kurti with Embroidery', price: 2699, image: 'https://via.placeholder.com/300?text=Silk+Kurti+with+Embroidery' },
+    // { id: 58, name: 'Cotton Flared Kurti', price: 1299, image: 'https://via.placeholder.com/300?text=Cotton+Flared+Kurti' },
+    // { id: 59, name: 'Velvet Straight Kurti', price: 2899, image: 'https://via.placeholder.com/300?text=Velvet+Straight+Kurti' },
+    // { id: 60, name: 'Linen Printed Kurti', price: 1599, image: 'https://via.placeholder.com/300?text=Linen+Printed+Kurti' },
   ];
 
   return (
     <div className="container mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-6 text-center">Dresses</h1>
       <p className="text-gray-600 text-center mb-8">
-        Explore our exquisite collection of traditional Indian kurtis.
+      <h2 className="text-3xl  text-center mb-8">Exclusive!! Deal , Buy 2 Get 1 Free on all Products</h2>
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((product) => (

@@ -30,17 +30,17 @@ const NewArrivals = () => {
     { id: 24, name: 'Women Pink Mini Cutout Dress ', price: 400, image: '/Dresses/Cutout pink 1.WEBP' },
     { id: 25, name: 'Women Red Flared Cutout Dress', price: 400, image: '/Dresses/Cutout red 2.WEBP' },
     { id: 26, name: 'Women Purple Flared Boat Neck Dress', price: 400, image: '/Dresses/Cutout purple 1.WEBP' },
-    { id: 27, name: 'Silk Kurti with Embroidery', price: 2599, image: 'https://via.placeholder.com/300?text=Silk+Kurti+with+Embroidery' },
-    { id: 28, name: 'Cotton Flared Kurti', price: 1199, image: 'https://via.placeholder.com/300?text=Cotton+Flared+Kurti' },
-    { id: 29, name: 'Velvet Anarkali Kurti', price: 3299, image: 'https://via.placeholder.com/300?text=Velvet+Anarkali+Kurti' },
-    { id: 30, name: 'Linen Printed Kurti', price: 1499, image: 'https://via.placeholder.com/300?text=Linen+Printed+Kurti' },
+    // { id: 27, name: 'Silk Kurti with Embroidery', price: 2599, image: 'https://via.placeholder.com/300?text=Silk+Kurti+with+Embroidery' },
+    // { id: 28, name: 'Cotton Flared Kurti', price: 1199, image: 'https://via.placeholder.com/300?text=Cotton+Flared+Kurti' },
+    // { id: 29, name: 'Velvet Anarkali Kurti', price: 3299, image: 'https://via.placeholder.com/300?text=Velvet+Anarkali+Kurti' },
+    // { id: 30, name: 'Linen Printed Kurti', price: 1499, image: 'https://via.placeholder.com/300?text=Linen+Printed+Kurti' },
   ];
 
   return (
     <div className="container mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-6 text-center">New Arrivals</h1>
       <p className="text-gray-600 text-center mb-8">
-        Special Offer for Limited Time! BUY 2 GET 1 FREE
+      Exclusive!! Deal , Buy 2 Get 1 Free on all Products
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((product) => (

@@ -40,6 +40,7 @@ const Home = () => {
       </div>
 
       <section className="py-12">
+      <h2 className="text-3xl  text-center mb-8">Exclusive!! Deal , Buy 2 Get 1 Free on all Products</h2>
         <h2 className="text-3xl font-bold text-center mb-8">New Arrivals</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {products.map((product) => (

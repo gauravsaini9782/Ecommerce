@@ -40,7 +40,7 @@ const WesternWear = () => {
     <div className="container mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-6 text-center">Kurta sets</h1>
       <p className="text-gray-600 text-center mb-8">
-        Special Offer On Girls Fashion trends. BUY 2 GET 1 FREE
+      <h2 className="text-3xl  text-center mb-8">Exclusive!! Deal , Buy 2 Get 1 Free on all Products</h2>
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((product) => (

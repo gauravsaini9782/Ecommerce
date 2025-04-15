@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const whatsappNumber = "6376918138";
+  const whatsappNumber = "8306526811";
   const whatsappUrl = `https://wa.me/${whatsappNumber}`;
 
   return (
@@ -51,8 +51,8 @@ const Header = () => {
             <Link to="/" className="block py-2 text-gray-600 hover:text-pink-600">Home</Link>
             <Link to="/about-us" className="block py-2 text-gray-600 hover:text-pink-600">About Us</Link>
             <Link to="/new-arrivals" className="block py-2 text-gray-600 hover:text-pink-600">New Arrivals</Link>
-            <Link to="/indian-wear" className="block py-2 text-gray-600 hover:text-pink-600">Indian Wear</Link>
-            <Link to="/western-wear" className="block py-2 text-gray-600 hover:text-pink-600">Western Wear</Link>
+            <Link to="/indian-wear" className="block py-2 text-gray-600 hover:text-pink-600">Dresses</Link>
+            <Link to="/western-wear" className="block py-2 text-gray-600 hover:text-pink-600">Kurta Sets </Link>
             <Link to="/contact-us" className="block py-2 text-gray-600 hover:text-pink-600">Contact Us</Link>
             <a
               href={whatsappUrl}
