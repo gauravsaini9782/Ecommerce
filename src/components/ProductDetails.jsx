@@ -34,11 +34,6 @@ const ProductDetails = () => {
     { id: 24, name: 'Women Pink Mini Cutout Dress', price: 400, image: '/Dresses/Cutout pink 1.WEBP', sideView: '/Dresses/Cutout pink 2.WEBP', leftView: '/Dresses/Cutout pink 1.WEBP', rightView: '/Dresses/Cutout pink 2.WEBP', description: 'Care : Machine Wash', color: 'Pink', material: 'Rayon' },
     { id: 25, name: 'Women Red Flared Cutout Dress', price: 400, image: '/Dresses/Cutout red 2.WEBP', sideView: '/Dresses/Cutout red 1.WEBP', leftView: '/Dresses/Cutout red 2.WEBP', rightView: '/Dresses/Cutout red 1.WEBP', description: 'Care : Machine Wash', color: 'Red', material: 'Rayon' },
     { id: 26, name: 'Women Purple Flared Boat Neck Dress', price: 400, image: '/Dresses/Cutout purple 1.WEBP', sideView: '/Dresses/Cutout purple 2.WEBP', leftView: '/Dresses/Cutout purple 1.WEBP', rightView: '/Dresses/Cutout purple 2.WEBP', description: 'Care : Machine Wash', color: 'Purple', material: 'Rayon' },
-    // { id: 27, name: 'Silk Kurti with Embroidery', price: 2599, image: 'https://via.placeholder.com/300?text=Silk+Kurti+with+Embroidery', sideView: 'https://via.placeholder.com/300?text=Side+View', leftView: 'https://via.placeholder.com/300?text=Left+View', rightView: 'https://via.placeholder.com/300?text=Right+View', description: 'Silk kurti with detailed embroidery.', color: 'Purple', material: 'Silk' },
-    // { id: 28, name: 'Cotton Flared Kurti', price: 1199, image: 'https://via.placeholder.com/300?text=Cotton+Flared+Kurti', sideView: 'https://via.placeholder.com/300?text=Side+View', leftView: 'https://via.placeholder.com/300?text=Left+View', rightView: 'https://via.placeholder.com/300?text=Right+View', description: 'Flared cotton kurti for comfort.', color: 'Blue', material: 'Cotton' },
-    // { id: 29, name: 'Velvet Anarkali Kurti', price: 3299, image: 'https://via.placeholder.com/300?text=Velvet+Anarkali+Kurti', sideView: 'https://via.placeholder.com/300?text=Side+View', leftView: 'https://via.placeholder.com/300?text=Left+View', rightView: 'https://via.placeholder.com/300?text=Right+View', description: 'Opulent velvet anarkali kurti.', color: 'Red', material: 'Velvet' },
-    // { id: 30, name: 'Linen Printed Kurti', price: 1499, image: 'https://via.placeholder.com/300?text=Linen+Printed+Kurti', sideView: 'https://via.placeholder.com/300?text=Side+View', leftView: 'https://via.placeholder.com/300?text=Left+View', rightView: 'https://via.placeholder.com/300?text=Right+View', description: 'Printed linen kurti for a chic look.', color: 'Beige', material: 'Linen' },
-    
     // Indian Wear (IDs 31-60)
     { id: 31, name: 'Dewdrop Charm Cotton Dress', price: 899, image: '/Dress/Dewdrop Charm Cotton Dress 1.jpg', sideView: '/Dress/Dewdrop Charm Cotton Dress 2.jpg', leftView: '/Dress/Dewdrop Charm Cotton Dress 3.jpg', rightView: '/Dress/Dewdrop Charm Cotton Dress 1.jpg', description: 'Care: DRY CLEAN', color: 'Off White', material: '100% Cotton' },
     { id: 32, name: 'Breezy Grace Mini Dress ', price: 899, image: '/Dress/Breezy Grace Mini Dress 1.jpg', sideView: '/Dress/Breezy Grace Mini Dress 2.jpg', leftView: '/Dress/Breezy Grace Mini Dress 3.jpg', rightView: '/Dress/Breezy Grace Mini Dress 1.jpg', description: 'Care: DRY CLEAN ', color: 'OFF WHITE', material: 'Cotton Linen' },
@@ -61,16 +56,6 @@ const ProductDetails = () => {
     { id: 49, name: 'Calming Mist Floral Maxi', price: 899, image: '/Dress/Calming Mist Floral Maxi 1.jpg', sideView: '/Dress/Calming Mist Floral Maxi 2.jpg', leftView: '/Dress/Calming Mist Floral Maxi 3.jpg', rightView: '/Dress/Calming Mist Floral Maxi 1.jpg', description: 'Care : DRY CLEAN ', color: 'Light Pink with floral Print cd', material: 'Cotton' },
     { id: 50, name: 'Posh Delight Green Cotton Maxi', price: 899, image: '/Dress/Posh Delight Green Cotton Maxi 1.jpg', sideView: '/Dress/Posh Delight Green Cotton Maxi 2.jpg', leftView: '/Dress/Posh Delight Green Cotton Maxi 3.jpg', rightView: '/Dress/Posh Delight Green Cotton Maxi 1.jpg', description: 'Care : DRY CLEAN.', color: 'White with Large Green Floral Print', material: 'Cotton' },
     { id: 51, name: 'Artistry Pearl Cotton Maxi', price: 900, image: '/Dress/Artistry Pearl Cotton Maxi 1.jpg', sideView: '/Dress/Artistry Pearl Cotton Maxi 2.jpg', leftView: '/Dress/Artistry Pearl Cotton Maxi 3.jpg', rightView: '/Dress/Artistry Pearl Cotton Maxi 1.jpg', description: 'Care : DRY CLEAN .', color: 'Dark Brown with a peach or Beige Floral Pattern', material: 'Cotton ' },
-    // { id: 52, name: 'Silk Kurti with Palazzo', price: 3299, image: 'https://via.placeholder.com/300?text=Silk+Kurti+with+Palazzo', sideView: 'https://via.placeholder.com/300?text=Side+View', leftView: 'https://via.placeholder.com/300?text=Left+View', rightView: 'https://via.placeholder.com/300?text=Right+View', description: 'Silk kurti with palazzo pants.', color: 'Gold', material: 'Silk' },
-    // { id: 53, name: 'Cotton Kurti with Skirt', price: 1499, image: 'https://via.placeholder.com/300?text=Cotton+Kurti+with+Skirt', sideView: 'https://via.placeholder.com/300?text=Side+View', leftView: 'https://via.placeholder.com/300?text=Left+View', rightView: 'https://via.placeholder.com/300?text=Right+View', description: 'Cotton kurti with skirt combo.', color: 'Pink', material: 'Cotton' },
-    // { id: 54, name: 'Chiffon Straight Kurti', price: 1399, image: 'https://via.placeholder.com/300?text=Chiffon+Straight+Kurti', sideView: 'https://via.placeholder.com/300?text=Side+View', leftView: 'https://via.placeholder.com/300?text=Left+View', rightView: 'https://via.placeholder.com/300?text=Right+View', description: 'Light chiffon straight kurti.', color: 'White', material: 'Chiffon' },
-    // { id: 55, name: 'Printed Georgette Kurti', price: 1199, image: 'https://via.placeholder.com/300?text=Printed+Georgette+Kurti', sideView: 'https://via.placeholder.com/300?text=Side+View', leftView: 'https://via.placeholder.com/300?text=Left+View', rightView: 'https://via.placeholder.com/300?text=Right+View', description: 'Printed georgette kurti.', color: 'Multicolor', material: 'Georgette' },
-    // { id: 56, name: 'Rayon Kurti with Dupatta', price: 2099, image: 'https://via.placeholder.com/300?text=Rayon+Kurti+with+Dupatta', sideView: 'https://via.placeholder.com/300?text=Side+View', leftView: 'https://via.placeholder.com/300?text=Left+View', rightView: 'https://via.placeholder.com/300?text=Right+View', description: 'Rayon kurti with dupatta set.', color: 'Purple', material: 'Rayon' },
-    // { id: 57, name: 'Silk Kurti with Embroidery', price: 2699, image: 'https://via.placeholder.com/300?text=Silk+Kurti+with+Embroidery', sideView: 'https://via.placeholder.com/300?text=Side+View', leftView: 'https://via.placeholder.com/300?text=Left+View', rightView: 'https://via.placeholder.com/300?text=Right+View', description: 'Silk kurti with intricate embroidery.', color: 'Maroon', material: 'Silk' },
-    // { id: 58, name: 'Cotton Flared Kurti', price: 1299, image: 'https://via.placeholder.com/300?text=Cotton+Flared+Kurti', sideView: 'https://via.placeholder.com/300?text=Side+View', leftView: 'https://via.placeholder.com/300?text=Left+View', rightView: 'https://via.placeholder.com/300?text=Right+View', description: 'Comfortable flared cotton kurti.', color: 'Blue', material: 'Cotton' },
-    // { id: 59, name: 'Velvet Straight Kurti', price: 2899, image: 'https://via.placeholder.com/300?text=Velvet+Straight+Kurti', sideView: 'https://via.placeholder.com/300?text=Side+View', leftView: 'https://via.placeholder.com/300?text=Left+View', rightView: 'https://via.placeholder.com/300?text=Right+View', description: 'Velvet straight kurti for elegance.', color: 'Green', material: 'Velvet' },
-    // { id: 60, name: 'Linen Printed Kurti', price: 1599, image: 'https://via.placeholder.com/300?text=Linen+Printed+Kurti', sideView: 'https://via.placeholder.com/300?text=Side+View', leftView: 'https://via.placeholder.com/300?text=Left+View', rightView: 'https://via.placeholder.com/300?text=Right+View', description: 'Printed linen kurti for casual wear.', color: 'Beige', material: 'Linen' },
-    
     // Western Wear (IDs 61-90)
     { id: 61, name: 'Mauve Melody Cosmos Suit Set', price: 1499, image: '/Dress/Dewdrop Charm Cotton Dress 1.jpg', sideView: '/Dress/Dewdrop Charm Cotton Dress 2.jpg', leftView: '/Dress/Dewdrop Charm Cotton Dress 3.jpg', rightView: '/Dress/Dewdrop Charm Cotton Dress 1.jpg', description: 'Care : DRY CLEAN .', color: 'OFF White', material: 'Cotton' },
     { id: 62, name: 'Moss Green Majesty Suit Set', price: 1499, image: '/Kurta Set/moss green majesty 1.jpg', sideView: '/Kurta Set/moss green majesty 2.jpg', leftView: '/Kurta Set/moss green majesty 3.jpg', rightView: '/Kurta Set/moss green majesty 1.jpg', description: 'Care : DRY CLEAN.', color: 'Olive Green ', material: 'Cosmos' },
@@ -108,7 +93,15 @@ const ProductDetails = () => {
 
   const handleShare = () => {
     const shareUrl = `${window.location.origin}/product/${product.id}`;
-    const whatsappUrl = `https://wa.me/?text=Check%20out%20this%20${product.name}%20at%20Kurti%20Store:%20${encodeURIComponent(shareUrl)}`;
+    const message = `I'd like to order the following from Kurti Store:\n\n` +
+                    `Product: ${product.name}\n` +
+                    `Price: ₹${product.price}\n` +
+                    `Size: ${selectedSize}\n` +
+                    `Quantity: ${quantity}\n` +
+                    `Color: ${product.color}\n` +
+                    `Material: ${product.material}\n` +
+                    `Link: ${shareUrl}`;
+    const whatsappUrl = `https://wa.me/+918306526811?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -167,7 +160,7 @@ const ProductDetails = () => {
             <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
               <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.074-.297-.15-1.255-.463-2.39-1.475-.883-.812-1.48-1.77-1.48-2.91 0-.634.233-1.218.652-1.697.42-.477.956-.766 1.535-.788.58-.022 1.13.198 1.63.57.501.373 1.883 1.25 1.883 2.975 0 1.726-1.883 3.447-1.62 3.595.263.148 1.547-.074 2.39-.694.846-.62 1.49-1.39 1.667-1.64.177-.248.099-.471-.074-.644zM12 0C5.373 0 0 5.373 0 12c0 2.137.561 4.248 1.62 6.095L0 24l5.904-1.62A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22.182c-1.978 0-3.84-.561-5.447-1.535L5.03 21.18l.533-1.523A10.073 10.073 0 013.818 12 10.182 10.182 0 0112 1.818c5.635 0 10.182 4.547 10.182 10.182S17.635 22.182 12 22.182z"/>
             </svg>
-            Share on WhatsApp
+            Order Now
           </button>
           <div className="border-t pt-6">
             <h3 className="text-lg font-semibold mb-2">Product Description</h3>
