@@ -93,7 +93,7 @@ const ProductDetails = () => {
 
   const handleShare = () => {
     const shareUrl = `${window.location.origin}/product/${product.id}`;
-    const message = `I'd like to order the following from Kurti Store:\n\n` +
+    const message = `I'd like to order the following from Girls Fashion Trends:\n\n` +
                     `Product: ${product.name}\n` +
                     `Price: ₹${product.price}\n` +
                     `Size: ${selectedSize}\n` +
