@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">Kurti Store</h3>
-            <p className="text-gray-400">Premium quality kurtis for every occasion</p>
+            <h3 className="text-lg font-semibold mb-4">Girls Fashion Trends</h3>
+            <p className="text-gray-400">Premium quality Dresses for every occasion</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
@@ -19,12 +19,12 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
-            <p className="text-gray-400">Email: support@kurtistore.com</p>
-            <p className="text-gray-400">Phone: +91 123-456-7890</p>
+            <p className="text-gray-400">Email: info.girlsfashiontrends@gmail.com</p>
+            <p className="text-gray-400">Phone: +918306526811</p>
           </div>
         </div>
         <div className="mt-8 text-center text-gray-400">
-          <p>&copy; 2025 Kurti Store. All rights reserved.</p>
+          <p>&copy; 2025 Girls fashion trends. All rights reserved.</p>
         </div>
       </div>
     </footer>

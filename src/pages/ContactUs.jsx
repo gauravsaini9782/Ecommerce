@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ContactUs = () => {
-  const whatsappNumber = "8306526811";
+  const whatsappNumber = "+918306526811";
   const whatsappUrl = `https://wa.me/${whatsappNumber}`;
 
   return (
@@ -42,7 +42,7 @@ const ContactUs = () => {
             rel="noopener noreferrer"
             className="block text-center bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition-colors"
           >
-            Send Message via WhatsApp
+            Contact Now
           </a>
         </div>
       </div>
